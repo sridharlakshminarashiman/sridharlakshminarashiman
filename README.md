@@ -41,11 +41,12 @@ You see how I think **and** what I can ship — the reasoning and the build, in 
 
 ### 🔹 [Aurelia — Carrier Delay Automation Chatbot](https://github.com/sridharlakshminarashiman/aurelia)
 
+- 🎬 [4-min walkthrough] (https://www.youtube.com/watch?v=s6H5ZoRRAf8)
 - **What I built:** A conversational AI assistant that runs carrier delay conversations with truck drivers end-to-end — handling both company-initiated (GPS-triggered) and driver-initiated reports through a six-stage flow, extracting structured data every turn, and escalating to humans on safety or ambiguity triggers.
 - **Outcome:** Replaces slow manual phone calls with chat that completes in ~10 turns at ~$0.07 per conversation, producing a clean structured payload (vehicle, driver, location, ETA, classified delay reason) ready for downstream systems.
 - **Problem:** Ops teams spend hours daily phoning carriers to ask why a truck is late, then hand-coding inconsistent answers into their console — while existing self-service apps see <5% adoption.
 - **Architecture:** Pure prompt engineering — the full SOP lives in the system prompt, so ops owns the bot's behavior, not engineers. Each LLM turn emits dual output (a driver message *and* machine-readable workflow-state JSON), and three layers of guardrails (prompt → application → operational) keep it safe by design.
-- **Stack:** `Python 3.13` · `Streamlit` · `AWS Bedrock (Claude 3 Sonnet)` · `boto3` · `prompt engineering` · 🎬 [4-min walkthrough](https://www.youtube.com/watch?v=s6H5ZoRRAf8)
+- **Stack:** `Python 3.13` · `Streamlit` · `AWS Bedrock (Claude 3 Sonnet)` · `boto3` · `prompt engineering`
 
 ---
 
