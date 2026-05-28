@@ -17,7 +17,7 @@ This repo is where I prove it. Every project is a complete case study you can bo
 
 ---
 
-## 🧭 How each project works
+## 🧭 How each project works 
 
 `Problem → Business case → Architecture → Working code → Outcome`
 
