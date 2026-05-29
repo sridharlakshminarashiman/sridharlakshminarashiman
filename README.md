@@ -11,7 +11,7 @@
 
 **Product Manager @ Amazon** working at the intersection of **AI/LLMs, automation, strategy, and business at scale.** I came up through large-scale operations before I learned to ship software, so I've lived the problems I now build for.
 
-⚡ **The short version:** I own the full arc: frame the business case, design the system, and write the code that makes it real.
+⚡ **The short version:** I own the full arc: frame the business case, design the system, and write the code that makes it real. 
 
 This repo is where I prove it. Every project is a complete case study you can both *read* and *run*.
 
