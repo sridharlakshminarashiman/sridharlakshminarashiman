@@ -2,7 +2,7 @@
 
 <p align="center">
   Product Manager who builds and ships, not just specs<br/>
-  I take problems from blank page to working prototype: the business case, the architecture, and the code.
+  I take problems from blank page to working prototype: the business case, the architecture, and the code. 
 </p>
 
 ---
